@@ -1,8 +1,3 @@
-import React, { Component } from 'react';
-import './App.sass';
-
-import Table from './components/table/table.component';
-
 const data = [
   {
     id: 0,
@@ -133,16 +128,4 @@ const columns = [
   { dataPath: 'comment', label: 'Comment' },
 ];
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Table columns={columns} data={data} />
-        
-      </div>
-      
-    );
-  }
-}
-
-export default App;
+<Table columns={columns} data={data} />;
