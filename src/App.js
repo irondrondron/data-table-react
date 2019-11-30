@@ -138,9 +138,7 @@ class App extends Component {
     return (
       <div className="App">
         <Table columns={columns} data={data} />
-        
       </div>
-      
     );
   }
 }

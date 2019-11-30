@@ -25,10 +25,8 @@ function Table(props) {
 
   return (
     <table>
-      <tbody>
-        {header}
-        {dataItem}
-      </tbody>
+      {header}
+      {dataItem}
     </table>
   );
 }
